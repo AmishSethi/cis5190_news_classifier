@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs / temp
+*.log
+nohup.out
+/tmp_*
+/tmp/
+
+# Trained model weights (regenerable; too large for git)
+experiments/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Submission staging (only model.py + preprocess.py are tracked)
+submission/model.pt
+submission/__pycache__/
+
+# Scraped HTML cache
+data/cache_*/
+data/_tmp_*
+
+# Per-model prediction arrays
+data/preds/
+
+# Massive URL list (>100MB GitHub limit)
+data/urls_fox.csv
+
+# Tokens and secrets
+.env
+.env.local
+*.token
+huggingface_token
+.huggingface/
+secrets/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store

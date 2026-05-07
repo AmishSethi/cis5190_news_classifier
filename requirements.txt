@@ -1,0 +1,32 @@
+# Core
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.11
+
+# Deep learning
+torch==2.9.1
+transformers>=4.40
+tokenizers>=0.15
+accelerate>=0.27
+
+# Data ingestion
+datasets>=2.18
+huggingface_hub>=0.20
+
+# Scraping (only needed if rebuilding from scratch)
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+tqdm>=4.66
+
+# Notebook + plotting
+jupyter>=1.0
+matplotlib>=3.8
+seaborn>=0.13
+
+# Optional: leaderboard polling
+gradio_client>=0.10
+
+# Optional: LLM zero-shot baseline
+openai>=1.30  # (used via OpenRouter base_url)
